@@ -1,0 +1,170 @@
+/* FILE CSS */
+/* Guida */
+
+/* 01 - Reset & Utilities */
+/* 02 - Navbar */
+/* 03 - Main */
+/* 04 - Footer */
+
+/* Sezione 01 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* Incollo la font-family fornita da google */
+	font-family: "Roboto", sans-serif;
+}
+
+/* Fine Sezione 01 */
+
+/* Sezione 02 */
+nav {
+	height: 80px;
+	/* Applico flex */
+	display: flex;
+	/* Posiziono il mio contenuto agli estremi dx e sx */
+	justify-content: space-between;
+	/* allineo verticalmente il contenuto */
+	align-items: center;
+}
+
+nav img {
+	width: 100px;
+}
+
+nav ul {
+	/* Posiziono gli elementi uno accanto all'altro tramite display flex */
+	display: flex;
+	/* Tolgo i puntini alla lista */
+	list-style: none;
+}
+
+nav ul li {
+	/* margin: 0 10px; */
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: green;
+}
+/* Fine Sezione 02 */
+
+/* Sezione 03 */
+.hero {
+	width: 100vw;
+	height: 800px;
+	background-image: url(assets/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Posiziono l'h1 al centro tramite flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 100px;
+	text-align: center;
+}
+
+.first-section {
+  display: flex;
+}
+
+.first-section .section-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section .section-txt h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: green;
+}
+
+.first-section .section-txt p {
+text-align: center;
+margin-top: 20px;
+}
+
+
+.first-section .section-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section .section-img img {
+  width: 450px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-section .section-txt, .first-section .section-img {
+  width: 50%;
+}
+
+/* Fine Sezione 03 */
+
+/* Sezione 04 */
+footer {
+	background-color: #000;
+	width: 100vw;
+	color: #fff;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.liste {
+  display: flex;
+}
+
+.liste .links-list, .liste .policies-list {
+  padding: 10px;
+}
+
+.liste .title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.bottom-footer {
+  text-align: center;
+}
+
+
+/* Fine Sezione 04 */

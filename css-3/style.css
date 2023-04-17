@@ -1,0 +1,23 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section class "hero" */
+.hero {
+  /* Indico l'url del mio sfondo */
+  background-image: url(https://img.wallpapic.it/i5821-639-913/medium/montagne-innevate-crinale-della-montagna-natura-sfondo.jpg);
+  /* Setto il 100% della mia view width */
+  width: 100vw;
+  /* Setto il 100% della mia view height */
+  height: 100vh;
+  /* Chiedo al mio css di non ripetere l'immagine */
+  background-repeat: no-repeat;
+  /* Chiedo al mio css di coprire comunque la dimensione 
+  del div che contiene l'immagine */
+  background-size: cover;
+  /* Chiedo al css di centrare l'immagine */
+  background-position: center;
+}
