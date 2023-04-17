@@ -1,0 +1,43 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Applico lo sfondo nero al body */
+body {
+	background-color: #000;
+	/* background-color: black; */
+}
+
+/* Applico la dimensione ai miei div */
+div {
+	width: 300px; /* larghezza */
+	height: 300px; /* altezza */
+}
+
+/* Applico la classe per lo sfondo bianco */
+.white-bg {
+	background-color: #fff;
+	/* background-color: white; */
+}
+
+/* Applico la classe per il bordo grigio */
+.g-border {
+	border: 4px solid gray;
+	/* Dimensione + solid + colore */
+}
+
+/* Applico l'effetto in hover */
+#red:hover {
+	background-color: red;
+}
+
+#yellow:hover {
+	background-color: yellow;
+}
+
+#green:hover {
+	background-color: green;
+}
