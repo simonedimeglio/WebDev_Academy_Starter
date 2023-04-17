@@ -1,0 +1,26 @@
+/* Tutti i tag DIV */
+div {
+  height: 400px;
+  width: 400px;
+}
+
+/* Tutti i tag P */
+p {
+  color: white;
+  font-size: 25px;
+}
+
+/* Gli elementi con classe "red" */
+.red {
+  background-color: red;
+}
+
+/* Gli elementi con classe "green" */
+.green {
+  background-color: green;
+}
+
+/* Gli elementi con id "customText" */
+#customText {
+  text-decoration: underline;
+}
